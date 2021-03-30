@@ -35,6 +35,7 @@ java -jar artifacts/app-deadline.jar -P:jdbc.url=jdbc:mysql://192.168.99.100:330
 
 2020-10-08 21:30:53.830 [DefaultDispatcher-worker-1] INFO  Application - No ktor.deployment.watch patterns specified, automatic reload is not active
 2020-10-08 21:30:54.998 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:9999
+
 3. Запускаем тесты стандартной командой ./gradlew clean test Они должны проходить.
 Если возникла необходимость повторного запуска тестов - перезапустите приложение вручную.
 Для этого можно просто закрыть окно терминала с запущенным приложением и кликнуть на кнопку "Terminate" во всплывающем окне. 
